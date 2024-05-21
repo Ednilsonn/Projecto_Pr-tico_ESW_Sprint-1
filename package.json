@@ -2,9 +2,12 @@
   "name": "loja-venda",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js",
+    "start-server": "node src/app.js"
+
   },
   "author": "Ednilson",
   "license": "ISC",
