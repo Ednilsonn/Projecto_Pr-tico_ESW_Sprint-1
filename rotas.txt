@@ -1,0 +1,40 @@
+rota de adicionar produto
+METODO POST
+http://localhost:3000/admin/add-product
+
+rota de ver todos os produtos
+METODO GET
+http://localhost:3000/products
+
+rota de ver um produto especifico
+METODO GET
+http://localhost:3000/products/2
+
+rota para atualizar os produtos
+METODO PUT
+http://localhost:3000/products/2
+
+rota de deletar um produto
+METODO DEL
+http://localhost:3000/products/3
+
+rota de adicionar um produto ao carrinho
+METODO POST
+http://localhost:3000/cart
+
+rota de ver o que esta no carrinho
+METODO GET
+http://localhost:3000/cart
+
+rota para deletar um produto do carrinho
+METODO DEL
+http://localhost:3000/cart
+
+
+rota para adicionar um users
+METODO POST
+http://localhost:3000/users
+
+rota para ver users
+METODO GET
+http://localhost:3000/users/3
