@@ -43,7 +43,7 @@ sequelize
     return user.createCart();
   })
   .then(cart => {
-    app.listen(process.env.PORT || 3003);
+    app.listen(process.env.PORT || 3000);
   })
   .catch(err => {
     console.log(err);
