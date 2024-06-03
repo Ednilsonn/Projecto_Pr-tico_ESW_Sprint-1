@@ -28,25 +28,4 @@ app.use(userRoutes);
 
 app.use(errorController.get404);
 
-sequelize
-  .sync()
-  .then(result => {
-    return User.findByPk(1);
-  })
-  .then(user => {
-    if (!user) {
-      return User.create({ name: 'Admin', email: 'admin@example.com' });
-    }
-    return user;
-  })
-  .then(user => {
-    return user.createCart();
-  })
-  .then(cart => {
-    app.listen(process.env.PORT || 3000);
-  })
-  .catch(err => {
-    console.log(err);
-  });
-
 module.exports = app;

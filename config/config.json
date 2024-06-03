@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "ronaldinhoE10",
+    "database": "vendas_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "ronaldinhoE10",
+    "database": "vendas_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "ronaldinhoE10",
+    "database": "vendas_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
