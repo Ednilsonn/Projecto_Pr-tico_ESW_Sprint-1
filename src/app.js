@@ -8,6 +8,7 @@ const shopRoutes = require('./routes/shop');
 const productRoutes = require('./routes/product');
 const cartRoutes = require('./routes/cart');
 const userRoutes = require('./routes/user');
+const logarRoutes = require('./routes/logar');
 const errorController = require('./controllers/error');
 const addUser = require('./middleware/addUser'); // Importando o middleware
 
@@ -25,6 +26,7 @@ app.use(shopRoutes);
 app.use(productRoutes);
 app.use(cartRoutes);
 app.use(userRoutes);
+app.use(logarRoutes);
 
 app.use(errorController.get404);
 
